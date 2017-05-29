@@ -9,6 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var output: UILabel!
+    @IBOutlet weak var ibput: UITextField!
+    @IBAction func action(_ sender: UIButton)
+    {
+    output.text = "Hello, " + (ibput.text)!
+    }
+    
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
